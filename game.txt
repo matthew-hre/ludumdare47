@@ -1,0 +1,32 @@
+[0] Game installed on local port {$cyan {#localport}}<br/><br/>Modules using memory below 1MB:<br/><br/>&nbsp;Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conventional&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Upper Memory<br/>&nbsp;-------- ---------------- ---------------- ----------------<br/>&nbsp;SYSTEM&nbsp;&nbsp;&nbsp;&nbsp;16,784&nbsp;&nbsp;&nbsp;(16K)&nbsp;&nbsp;&nbsp;10,480&nbsp;&nbsp;&nbsp;(10K)&nbsp;&nbsp;&nbsp;6,304&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6K)<br/>&nbsp;COMMAND&nbsp;	&nbsp;&nbsp;&nbsp;4,064&nbsp;&nbsp;&nbsp;&nbsp;(4K)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;(0K)&nbsp;&nbsp;&nbsp;4,064&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4K)<br/>&nbsp;UDVD2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,984&nbsp;&nbsp;&nbsp;&nbsp;(2K)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;(0K)&nbsp;&nbsp;&nbsp;1,984&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2K)<br/>&nbsp;FDAPM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;928&nbsp;&nbsp;&nbsp;&nbsp;(1K)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;(0K)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;928&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1K)<br/>&nbsp;CTMOUSE&nbsp;&nbsp;&nbsp;&nbsp;3,104&nbsp;&nbsp;&nbsp;&nbsp;(3K)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;(0K)&nbsp;&nbsp;&nbsp;3,104&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3K)<br/>&nbsp;Drives Assigned<br/>Drive&nbsp;&nbsp;Driver&nbsp;&nbsp;&nbsp;Unit<br/>&nbsp;&nbsp;D:&nbsp;&nbsp;&nbsp;FDCD0001&nbsp;&nbsp;&nbsp;0<br/>2 drive(s) avalible.<br/><br/>Done processing startup files {$cyan C:\FDCONFIG.SYS} and {$cyan C:\FDAUTO.BAT}<br/><br/>Type <b>HELP</b> to get support on commands and navigation.<br/><br/>Welcome to the {$purple whycardboard} {$cyan 1.3-RCC1} operating system ({$yellow https://whycardboard.itch.io})<br/><br/>C:\><Boot_cartridge 1>;
+
+{1} #why.text_delay = 100; <2>;
+[2] ludum dare.<br/><br/>a whycardboard game.<begin 3>;
+{3} #why.text_delay = 40; <4>;
+[4] it wasn't the best house on the market, but it was the best you could afford. 2 bedrooms, 2 and a half bathrooms, and a "finished" basement. the siding has seen better days, and the roof looks like it's another rainfall away from collapse. <approach_the_front_door 5>;
+[5] you approach the lackluster front door. it's a bland gray, with a fake silver doorhandle. what did you expect from the suburbs? <unlock_the_door 6>;
+[6] you root through your pockets, but you can't find a key anywhere. maybe it's nearby? <look_around 7>;
+[7] there's some bushes, and a doormat. <look_in_bushes 8, look_under_doormat 10>;
+[8] ...{#bushes_text}  <back_to_the_door 9>;
+{9} #bushes_text = "did you not look hard enough the first time? there's no key here!" <7>;
+[10] huh. there's really a key under here! i thought that was just a movie trope. <unlock_the_door 11>;
+[11] you slip the key into the door. the lock clicks open, and the door swings open, revealing a black corridor. <walk_inside 12>;
+{12} #why.text_delay = 2 <13>;
+[13] as you step through the door, you aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa <error 14>;
+
+{14} #why.text_delay = 0.25 <15>;
+[15] REBOOTING......<br/><br/>Game installed on local port {$cyan {#localport}}<br/><br/>Modules using memory below 1MB:<br/><br/>&nbsp;Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conventional&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Upper Memory<br/>&nbsp;-------- ---------------- ---------------- ----------------<br/>&nbsp;SYSTEM&nbsp;&nbsp;&nbsp;&nbsp;16,784&nbsp;&nbsp;&nbsp;(16K)&nbsp;&nbsp;&nbsp;10,480&nbsp;&nbsp;&nbsp;(10K)&nbsp;&nbsp;&nbsp;6,304&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6K)<br/>&nbsp;COMMAND&nbsp;	&nbsp;&nbsp;&nbsp;4,064&nbsp;&nbsp;&nbsp;&nbsp;(4K)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;(0K)&nbsp;&nbsp;&nbsp;4,064&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4K)<br/>&nbsp;UDVD2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,984&nbsp;&nbsp;&nbsp;&nbsp;(2K)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;(0K)&nbsp;&nbsp;&nbsp;1,984&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2K)<br/>&nbsp;FDAPM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;928&nbsp;&nbsp;&nbsp;&nbsp;(1K)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;(0K)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;928&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1K)<br/>&nbsp;CTMOUSE&nbsp;&nbsp;&nbsp;&nbsp;3,104&nbsp;&nbsp;&nbsp;&nbsp;(3K)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;(0K)&nbsp;&nbsp;&nbsp;3,104&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3K)<br/>&nbsp;Drives Assigned<br/>Drive&nbsp;&nbsp;Driver&nbsp;&nbsp;&nbsp;Unit<br/>&nbsp;&nbsp;D:&nbsp;&nbsp;&nbsp;FDCD0001&nbsp;&nbsp;&nbsp;0<br/>2 drive(s) avalible.<br/><br/>Done processing startup files {$cyan C:\FDCONFIG.SYS} and {$cyan C:\FDAUTO.BAT}<br/><br/>Type <b>HELP</b> to get support on commands and navigation.<br/><br/>Welcome to the {$purple whycardboard} {$cyan 1.3-RCC1} operating system ({$yellow https://whycardboard.itch.io})<br/><br/>C:\><Boot_cartridge 16>;
+{16} #why.text_delay = 100; <17>;
+[17] ludum dare.<br/><br/>a whycardboard game.<begin 18>;
+{18} #why.text_delay = 40; <19>;
+[19] it wasn't the best house on the market, but it was the best you could afford. 2 bedrooms, 2 and a half bathrooms, and a "finished" basement. the siding has seen better days, and the roof looks like it's another rainfall away from collapse. <approach_the_front_door 20>;
+[20] you approach the lackluster front door. it's a bland gray, with a... what the hell? why is it unlocked!? this isn't how the story goes! <head_inside 21>;
+[21] alright, here's the thing... this isn't the game anymore. this project was a lot to get done wand working within 48 hours, and it's a lot of concepts i'm just now learning, so this game isn't finished. i'm not plugging a patreon here, just wanted to say thanks for playing. <youre_welcome -1>;
+
+~/
+why.text_delay = 0.25;
+localport = why.rng_range(10000, 99999);
+why.end_message = "game over. <br /><br /> a game by:<br /><br /> whycardboard";
+why.font_size = 20;
+bushes_text = "why did you think there was a key in the bushes?";
+/~
